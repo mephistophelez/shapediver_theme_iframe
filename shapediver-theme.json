@@ -28,7 +28,6 @@
         "#2a2418"
       ]
     },
-    "defaultRadius": "4",
     "other": {
       "forceColorScheme": "light"
     },
@@ -44,16 +43,29 @@
       },
       "AppBuilderAppShellTemplatePage": {
         "defaultProps": {
-          "navbarBackgroundColor": "#f5f0e8",
+          "navbarBackgroundColor": "transparent",
           "mainBackgroundColor": "transparent"
         }
       },
-      "ViewportBranding": {
+      "Paper": {
+        "styles": {
+          "root": {
+            "backgroundColor": "transparent",
+            "boxShadow": "none"
+          }
+        }
+      },
+      "Card": {
+        "styles": {
+          "root": {
+            "backgroundColor": "transparent",
+            "boxShadow": "none"
+          }
+        }
+      },
+      "AppBuilderContainerWrapper": {
         "defaultProps": {
-          "light": {
-            "backgroundColor": "transparent"
-          },
-          "dark": {
+          "containerStyle": {
             "backgroundColor": "transparent"
           }
         }
