@@ -1,0 +1,52 @@
+{
+  "version": "1.0",
+  "themeOverrides": {
+    "primaryColor": "violet",
+    "colors": {
+      "violet": [
+        "#f3eeff",
+        "#e0d0ff",
+        "#c4a8ff",
+        "#a87dff",
+        "#9160fe",
+        "#834ffe",
+        "#7a44fe",
+        "#6835e4",
+        "#5c2dcc",
+        "#4f22b4"
+      ]
+    },
+    "other": {
+      "forceColorScheme": "dark"
+    },
+    "components": {
+      "Slider": {
+        "styles": {
+          "root": {},
+          "track": {
+            "backgroundColor": "#2a1a4a"
+          },
+          "bar": {
+            "backgroundColor": "#834ffe"
+          },
+          "thumb": {
+            "borderColor": "#834ffe",
+            "backgroundColor": "#834ffe"
+          },
+          "mark": {
+            "borderColor": "#834ffe"
+          },
+          "markFilled": {
+            "borderColor": "#834ffe"
+          }
+        }
+      },
+      "AppBuilderAppShellTemplatePage": {
+        "defaultProps": {
+          "navbarBackgroundColor": "#0d0a1a",
+          "mainBackgroundColor": "#0d0a1a"
+        }
+      }
+    }
+  }
+}
