@@ -22,29 +22,25 @@
     "components": {
       "Slider": {
         "styles": {
-          "root": {},
-          "track": {
-            "backgroundColor": "#2a1a4a"
-          },
-          "bar": {
-            "backgroundColor": "#834ffe"
-          },
-          "thumb": {
-            "borderColor": "#834ffe",
-            "backgroundColor": "#834ffe"
-          },
-          "mark": {
-            "borderColor": "#834ffe"
-          },
-          "markFilled": {
-            "borderColor": "#834ffe"
-          }
+          "track": { "backgroundColor": "#d4c5a0" },
+          "bar":   { "backgroundColor": "#834ffe" },
+          "thumb": { "borderColor": "#834ffe", "backgroundColor": "#834ffe" },
+          "mark":       { "borderColor": "#834ffe" },
+          "markFilled": { "borderColor": "#834ffe" }
         }
       },
       "AppBuilderAppShellTemplatePage": {
         "defaultProps": {
-          "navbarBackgroundColor": "#0d0a1a",
-          "mainBackgroundColor": "#0d0a1a"
+          "navbarBackgroundColor": "#f5f0e8",
+          "mainBackgroundColor":   "transparent"
+        }
+      },
+      "AppBuilderContainerWrapper": {
+        "defaultProps": {
+          "style": {
+            "backgroundColor": "#f5f0e8",
+            "color": "#3a2e1e"
+          }
         }
       }
     }
