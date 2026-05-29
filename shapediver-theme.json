@@ -16,16 +16,16 @@
         "#4f22b4"
       ],
       "gray": [
-        "#f5f0e8",
-        "#ede6d6",
-        "#ddd4be",
-        "#ccc2a6",
-        "#bbb090",
-        "#aa9e7a",
-        "#8a7e60",
-        "#6a6048",
-        "#4a4230",
-        "#2a2418"
+        "#e8e8e8",
+        "#dedede",
+        "#cecece",
+        "#bebebe",
+        "#aeaeae",
+        "#9e9e9e",
+        "#8e8e8e",
+        "#6e6e6e",
+        "#4e4e4e",
+        "#2e2e2e"
       ]
     },
     "other": {
@@ -34,7 +34,7 @@
     "components": {
       "Slider": {
         "styles": {
-          "track": { "backgroundColor": "#ccc2a6" },
+          "track": { "backgroundColor": "#bebebe" },
           "bar":   { "backgroundColor": "#834ffe" },
           "thumb": { "borderColor": "#834ffe", "backgroundColor": "#834ffe" },
           "mark":       { "borderColor": "#834ffe" },
@@ -43,30 +43,25 @@
       },
       "AppBuilderAppShellTemplatePage": {
         "defaultProps": {
-          "navbarBackgroundColor": "transparent",
-          "mainBackgroundColor": "transparent"
+          "navbarBackgroundColor": "#e8e8e8",
+          "mainBackgroundColor": "#e8e8e8"
         }
       },
       "Paper": {
         "styles": {
           "root": {
-            "backgroundColor": "transparent",
-            "boxShadow": "none"
+            "backgroundColor": "#e8e8e8",
+            "boxShadow": "none",
+            "border": "none"
           }
         }
       },
       "Card": {
         "styles": {
           "root": {
-            "backgroundColor": "transparent",
-            "boxShadow": "none"
-          }
-        }
-      },
-      "AppBuilderContainerWrapper": {
-        "defaultProps": {
-          "containerStyle": {
-            "backgroundColor": "transparent"
+            "backgroundColor": "#e8e8e8",
+            "boxShadow": "none",
+            "border": "none"
           }
         }
       }
