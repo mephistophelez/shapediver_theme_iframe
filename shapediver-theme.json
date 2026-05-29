@@ -14,15 +14,28 @@
         "#6835e4",
         "#5c2dcc",
         "#4f22b4"
+      ],
+      "gray": [
+        "#f5f0e8",
+        "#ede6d6",
+        "#ddd4be",
+        "#ccc2a6",
+        "#bbb090",
+        "#aa9e7a",
+        "#8a7e60",
+        "#6a6048",
+        "#4a4230",
+        "#2a2418"
       ]
     },
+    "defaultRadius": "4",
     "other": {
-      "forceColorScheme": "dark"
+      "forceColorScheme": "light"
     },
     "components": {
       "Slider": {
         "styles": {
-          "track": { "backgroundColor": "#d4c5a0" },
+          "track": { "backgroundColor": "#ccc2a6" },
           "bar":   { "backgroundColor": "#834ffe" },
           "thumb": { "borderColor": "#834ffe", "backgroundColor": "#834ffe" },
           "mark":       { "borderColor": "#834ffe" },
@@ -32,14 +45,16 @@
       "AppBuilderAppShellTemplatePage": {
         "defaultProps": {
           "navbarBackgroundColor": "#f5f0e8",
-          "mainBackgroundColor":   "transparent"
+          "mainBackgroundColor": "transparent"
         }
       },
-      "AppBuilderContainerWrapper": {
+      "ViewportBranding": {
         "defaultProps": {
-          "style": {
-            "backgroundColor": "#f5f0e8",
-            "color": "#3a2e1e"
+          "light": {
+            "backgroundColor": "transparent"
+          },
+          "dark": {
+            "backgroundColor": "transparent"
           }
         }
       }
