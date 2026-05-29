@@ -14,18 +14,6 @@
         "#6835e4",
         "#5c2dcc",
         "#4f22b4"
-      ],
-      "gray": [
-        "#e8e8e8",
-        "#dedede",
-        "#cecece",
-        "#bebebe",
-        "#aeaeae",
-        "#9e9e9e",
-        "#8e8e8e",
-        "#6e6e6e",
-        "#4e4e4e",
-        "#2e2e2e"
       ]
     },
     "other": {
@@ -34,35 +22,84 @@
     "components": {
       "Slider": {
         "styles": {
-          "track": { "backgroundColor": "#bebebe" },
+          "track": { "backgroundColor": "#c0c0c0" },
           "bar":   { "backgroundColor": "#834ffe" },
           "thumb": { "borderColor": "#834ffe", "backgroundColor": "#834ffe" },
           "mark":       { "borderColor": "#834ffe" },
           "markFilled": { "borderColor": "#834ffe" }
         }
       },
+      "Paper": {
+        "defaultProps": {
+          "withBorder": false,
+          "shadow": "none",
+          "bg": "transparent"
+        },
+        "styles": {
+          "root": {
+            "backgroundColor": "transparent",
+            "boxShadow": "none",
+            "border": "none"
+          }
+        }
+      },
       "AppBuilderAppShellTemplatePage": {
         "defaultProps": {
-          "navbarBackgroundColor": "#e8e8e8",
-          "mainBackgroundColor": "#e8e8e8"
+          "navbarBackgroundColor": "transparent",
+          "mainBackgroundColor": "transparent"
         }
       },
-      "Paper": {
-        "styles": {
-          "root": {
-            "backgroundColor": "#e8e8e8",
-            "boxShadow": "none",
-            "border": "none"
+      "AppBuilderControlsWidgetComponent": {
+        "defaultProps": {
+          "elementPaperProps": {
+            "withBorder": false,
+            "shadow": "none",
+            "style": { "backgroundColor": "transparent" }
           }
         }
       },
-      "Card": {
-        "styles": {
-          "root": {
-            "backgroundColor": "#e8e8e8",
-            "boxShadow": "none",
-            "border": "none"
+      "AppBuilderFormWidgetComponent": {
+        "defaultProps": {
+          "formPaperProps": {
+            "withBorder": false,
+            "shadow": "none",
+            "style": { "backgroundColor": "transparent" }
+          },
+          "elementPaperProps": {
+            "withBorder": false,
+            "shadow": "none",
+            "style": { "backgroundColor": "transparent" }
           }
+        }
+      },
+      "AppBuilderStackUiWidgetComponent": {
+        "defaultProps": {
+          "stackPaperProps": {
+            "withBorder": false,
+            "shadow": "none",
+            "style": { "backgroundColor": "transparent" }
+          }
+        }
+      },
+      "ParametersAndExportsAccordionComponent": {
+        "defaultProps": {
+          "accordionPaperProps": {
+            "withBorder": false,
+            "shadow": "none",
+            "px": 0,
+            "py": 0
+          }
+        }
+      },
+      "Accordion": {
+        "defaultProps": {
+          "variant": "default"
+        },
+        "styles": {
+          "item": { "backgroundColor": "transparent", "border": "none" },
+          "content": { "padding": "0", "backgroundColor": "transparent" },
+          "control": { "backgroundColor": "transparent" },
+          "panel": { "backgroundColor": "transparent" }
         }
       }
     }
